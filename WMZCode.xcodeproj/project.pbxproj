@@ -15,6 +15,7 @@
 		18AB469621C37B750006B044 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB469521C37B750006B044 /* main.m */; };
 		18AB46A021C37B750006B044 /* WMZCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB469F21C37B750006B044 /* WMZCodeTests.m */; };
 		18AB46AB21C37B750006B044 /* WMZCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB46AA21C37B750006B044 /* WMZCodeUITests.m */; };
+		18AB46C121C390C30006B044 /* WMZCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AB46C021C390C30006B044 /* WMZCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18AB46A621C37B750006B044 /* WMZCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMZCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AB46AA21C37B750006B044 /* WMZCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZCodeUITests.m; sourceTree = "<group>"; };
 		18AB46AC21C37B750006B044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AB46BF21C390C30006B044 /* WMZCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMZCodeView.h; sourceTree = "<group>"; };
+		18AB46C021C390C30006B044 /* WMZCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMZCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		18AB468521C37B6D0006B044 /* WMZCode */ = {
 			isa = PBXGroup;
 			children = (
+				18AB46B821C37BCB0006B044 /* WMZCode */,
 				18AB468621C37B6D0006B044 /* AppDelegate.h */,
 				18AB468721C37B6D0006B044 /* AppDelegate.m */,
 				18AB468921C37B6D0006B044 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				18AB46AC21C37B750006B044 /* Info.plist */,
 			);
 			path = WMZCodeUITests;
+			sourceTree = "<group>";
+		};
+		18AB46B821C37BCB0006B044 /* WMZCode */ = {
+			isa = PBXGroup;
+			children = (
+				18AB46BF21C390C30006B044 /* WMZCodeView.h */,
+				18AB46C021C390C30006B044 /* WMZCodeView.m */,
+			);
+			path = WMZCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				18AB468B21C37B6D0006B044 /* ViewController.m in Sources */,
 				18AB469621C37B750006B044 /* main.m in Sources */,
+				18AB46C121C390C30006B044 /* WMZCodeView.m in Sources */,
 				18AB468821C37B6D0006B044 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
