@@ -2,6 +2,8 @@
 
 pod 'WMZCode', '~> 1.0.0'
 
+## 在使用cocoapods安装时，请先执行 pod search WMZDialog，如果搜索不到，请执行pod setup命令。
+
 效果图
 
 ![Untitled.gif](https://upload-images.jianshu.io/upload_images/9163368-02e0387793a05194.gif?imageMogr2/auto-orient/strip)
