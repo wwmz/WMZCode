@@ -15,13 +15,14 @@ typedef NS_ENUM(NSInteger, CodeType) {
     CodeTypeNineLabel,    // NineLabel
     CodeTypeSlider             // Slider
 };
+```
 
 调用
 ```
 WMZCodeView *codeView = [[WMZCodeView shareInstance] addCodeViewWithType:CodeTypeImage withImageName:@"A" witgFrame:CGRectMake(0, 50, 300, 50)  withBlock:^(BOOL success) {
         if (success) {
             NSLog(@"成功");
-        }
-  }];
+        } 
+}];
 [superView  addSubview: codeView] ;
 ```
