@@ -2,7 +2,7 @@
 
 pod 'WMZCode', '~> 1.0.0'
 
-## 在使用cocoapods安装时，请先执行 pod search WMZDialog，如果搜索不到，请执行pod setup命令。
+## 在使用cocoapods安装时，请先执行 pod search WMZCode，如果搜索不到，请执行pod setup命令。
 
 效果图
 
