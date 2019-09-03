@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { "wmz" => "925457662@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/wwmz/WMZCode.git", :tag => "1.0.0" }
-  s.source_files = "WMZCode/**/*.{h,m}"
+  s.source_files = "WMZCode/WMZCode/**/*.{h,m}"
   s.framework = 'UIKit'
   
 end
