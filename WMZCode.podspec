@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "WMZCode"
   s.version      = "1.0.0"
-  s.license = "Copyright (c) 2018年 WMZ. All rights reserved."
+  s.license      = "Copyright (c) 2018年 WMZ. All rights reserved."
   s.summary      = "滑块验证"
   s.description  = <<-DESC 
                     四种验证
