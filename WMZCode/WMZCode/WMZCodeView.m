@@ -477,7 +477,7 @@
         dispatch_source_cancel(timer);
     }
     
-    self.name = [self getRandomNumber:0 to:1]==1?@"A":@"B";
+//    self.name = [self getRandomNumber:0 to:1]==1?@"A":@"B";
     if (self.type==CodeTypeImage){
         
         [self getRandomPoint];
