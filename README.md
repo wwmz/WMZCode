@@ -1,5 +1,7 @@
 # WMZCode
 
+pod 'WMZCode', '~> 1.0.0'
+
 效果图
 
 ![Untitled.gif](https://upload-images.jianshu.io/upload_images/9163368-02e0387793a05194.gif?imageMogr2/auto-orient/strip)
